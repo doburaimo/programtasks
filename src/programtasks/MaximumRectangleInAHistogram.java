@@ -106,7 +106,7 @@ public class MaximumRectangleInAHistogram {
 			printHisto(histogram,max);
 
 			System.out.println("The Max Area is " + answer);
-
+            scan.close();
 
 		}
 	} 

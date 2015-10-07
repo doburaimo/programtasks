@@ -171,7 +171,7 @@ public class MaximumRectangleStack {
 			int answer = solve(histogram);
 			printHisto(histogram,max,answer);
 			System.out.println("The Max Area is " + answer);
-
+            scan.close();
 
 		}
 	}
